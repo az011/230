@@ -1,0 +1,26 @@
+name: "Anqi_website"
+title: "Anqi Zang"
+description: |
+  My Website
+output_dir: "docs"
+theme: theme.css
+navbar:
+  logo: star.png
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Course Visualization"
+      menu:
+        - text: "Generative Art Work"
+          href: Generative_Art_Work.html
+        - text: "ggplot extension"
+          href: ggplot_extension.html
+        - text: "Shiny app"
+          href: shiny_app.html
+        - text: "Other works"
+          href: other_works.html
+    - text: "Data Story"
+      href: Data_Story.html
+output: distill::distill_article
+
+

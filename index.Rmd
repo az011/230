@@ -1,0 +1,26 @@
+---
+title: "My Website"
+description: |
+  Welcome to Anqi's website for Math 230. Hope you enjoy it!
+links: 
+  - label: Email
+    url: "mailto:az011@bucknell.edu"
+  - label: GitHub
+    url: "https://github.com/az011/230"
+output:
+  postcards::jolla
+site: distill::distill_website
+---
+
+This is the website for Anqi Zang.
+
+Hi! 🌷I am a junior student majoring in Statistics at Bucknell University in Lewisburg, Pennsylvania.
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+
+
+```
+

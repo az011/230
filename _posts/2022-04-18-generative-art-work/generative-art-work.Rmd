@@ -1,0 +1,17 @@
+---
+title: "Generative Art Work"
+description: |
+  Some art works created by R
+author:
+  - name: anqi zang
+date: 2022-03-11
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r}
+here('myArtwork1.png')
+```
+
+

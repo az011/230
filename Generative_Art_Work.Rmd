@@ -1,0 +1,29 @@
+---
+title: "Generative Art Work"
+color1: "#5A59A3"
+angle: 130
+site: distill::distill_website
+output:
+  postcards::onofre
+---
+ 
+
+**All the art works are made by 'aRtsy' package.**
+
+
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics("myArtwork2.png")
+```
+canvas_maze()
+
+
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics("myArtwork1.png")
+```
+canvas_flow()
+
+
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics("myArtwork3.png")
+```
+canvas_ribbons()
