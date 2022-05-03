@@ -142,9 +142,11 @@ p <- ggplot(happiness, aes(x = Health..Life.Expectancy., y = Happiness.Score,
   labs(x = "Life Expectancy", y = "Happiness Score", 
        color = "Region") +
   ggtitle("The relationship between Life Expectancy and Happiness by different regions") +
-  theme(plot.title = element_text(size = 10)) 
+  theme(plot.title = element_text(size = 10)) +
+  facet_wrap(~ Region)
 
 plotly::ggplotly(p)
 ```
 
+............
 
