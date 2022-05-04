@@ -1,8 +1,6 @@
 ---
 title: "Data Story"
 image: "book.png"
-
-
 ---
 
 ```{r setup, include=FALSE}
