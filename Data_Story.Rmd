@@ -78,9 +78,9 @@ p <- ggplot(happiness, aes(x=Region, y=Happiness.Score)) +
 plotly::ggplotly(p)
 ```
 
-From these two graphs we can see that Europe has the highest Happiness Score and Africa has the lowest Happiness Score. But on average, people living in Oceania and North America are happier than people in other regions.
+From these two graphs we can see that Europe has the highest Happiness Score 7.59 and Africa has the lowest Happiness Score 2.84. But on average, people living in Oceania and North America are happier than people in other regions.
 
-One interesting point is that although Europe has the highest Happiness Score, it has a big range between its highest and lowest score. So this means that when we talk about people from Europe, we cannot say that they are happy since they are from Europe. I think this might because Europe is very big and has a lot of countries, and there is a big gap between rich and poor. 
+One interesting point is that although Europe has the highest Happiness Score, it has a big range between its highest and lowest score (7.59 & 4.22). So this means that when we talk about people from Europe, we cannot say that they are happy since they are from Europe. I think this might because Europe is very big and has a lot of countries, and there is a big gap between rich and poor. 
 
 Africa also has the same situation, since there are some outliers in Africa, which are even approximately equal to the highest happiness score in South America. 
 
@@ -148,5 +148,22 @@ p <- ggplot(happiness, aes(x = Health..Life.Expectancy., y = Happiness.Score,
 plotly::ggplotly(p)
 ```
 
-............
+From all the six scatterplots of different regions, we can find that Life Expectancy score and Happiness Score has a positive relationship. Although North America and Oceania do not have many countries to let us see a positive relationship, the dots are all on the top right corner of the scatterplot, which means that they have both high life expectancy and happiness score.
+Therefore, with the Life Expectancy getting higher, or the number of years a person can expect to live is larger, people are living happier.
+
+---------------------------
+
+## Conclusion
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -1,9 +1,6 @@
 ---
 title: "ggplot extension - ggridges"
 
-links:
-  - label: ggridges
-    url: "https://cran.r-project.org/web/packages/ggridges/vignettes/introduction.html"
 output:
   postcards::solana
 ---
