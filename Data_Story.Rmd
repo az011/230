@@ -1,7 +1,8 @@
 ---
 title: "Data Story"
-image: "book.png"
+description: Data visualization and analysis on world happiness 🌎
 ---
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -25,13 +26,12 @@ happiness$Freedom = Freedom.cat
 ```
 
 
-## Content
+## Content of data set
 
 This data set is called `World Happiness Report`. The World Happiness Report is a survey of global happiness. I chose the report from 2015, which ranked 158 countries according to their level of happiness. The report looks back at the state of happiness in the world today and shows how to explain the differences in happiness between individuals and nations.
 
 The happiness score and rankings use data from the Gallup World Poll. The scores are based on answers to the survey's main life assessment questions in the poll. There are also other factors behind the happiness index, like GDP per capita, life expectancy, freedom, Trust of Government Corruption, or generosity.
 
---------------------
 
 ## Data Cleaning
 
@@ -39,7 +39,7 @@ I changed `Region` into 6 different continents: Africa, Asia, Europe, North Amer
 
 And I turned `Freedom` into a factor with three categories: low, medium, high based on which third of the distribution it belongs to.
 
---------------------
+
 
 ## Visualizations
 
@@ -80,7 +80,7 @@ One interesting point is that although Europe has the highest Happiness Score, i
 
 Africa also has the same situation, since there are some outliers in Africa, which are even approximately equal to the highest happiness score in South America. 
 
----------------------------
+
 
 **3. Scatterplot comparing GDP and Happiness**
 
@@ -100,7 +100,7 @@ plotly::ggplotly(p)
 GDP per Capita and Happiness Score have a weak positive relationship, which means that with the GDP getting higher, people are living happier. Africa countries (rea dots) have relatively lower GDP, but there some outliers in Africa, which have both high GDP and Happiness Score. 
 Oceania and North America countries have relatively higher GDP than other regions, so they also have higher Happiness Score than other regions.
 
----------------------------
+
 
 **4. ggridges Heatmap comparing Freedom and Happiness** 
 
@@ -111,7 +111,6 @@ knitr::include_graphics('happiness3.png')
 The density plots for low freedom level and high freedom level are approximately normal distributed. But the density plot for high freedom level is left-skewed, which means that for regions with high freedom level, there are more people with higher happiness score than others. 
 
 
----------------------------
 
 **5. ggmuller comparing Generosity and Happiness by different regions**
 
@@ -126,7 +125,7 @@ But actually, I didn't find a significant relationship between Happiness Score a
 We can also see in the graph that there is a highest peak in grey, which means that Asia has the highest generosity score. However, the happiness scores of Asia are not significantly high or low. 
 
 
----------------------------
+
 
 **6. Scatterplot comparing Life Expectancy and Happiness **
 
@@ -147,7 +146,7 @@ plotly::ggplotly(p)
 From all the six scatterplots of different regions, we can find that Life Expectancy score and Happiness Score has a positive relationship. Although North America and Oceania do not have many countries to let us see a positive relationship, the dots are all on the top right corner of the scatterplot, which means that they have both high life expectancy and happiness score.
 Therefore, with the Life Expectancy getting higher, or the number of years a person can expect to live is larger, people are living happier.
 
----------------------------
+
 
 ## Conclusion
 
@@ -157,8 +156,9 @@ But there is no significant relationship between Happiness Score and Generosity,
 
 
 
+## Reference
 
-
+https://www.kaggle.com/datasets/unsdsn/world-happiness
 
 
 
