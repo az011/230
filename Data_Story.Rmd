@@ -155,7 +155,9 @@ Therefore, with the Life Expectancy getting higher, or the number of years a per
 
 ## Conclusion
 
+According to my data visualization and analysis above, I found that GDP per Capita, Freedom level, and life expectancy have some effects on Happiness. All these three factors have a positive relationship with Happiness Score, which means that people will be happier if they have higher GDP, higher freedom level, and higher life expectancy. 
 
+But there is not significant relationship between Happiness Score and Generosity, which means whether people are generous or not will not affect people's happiness.  
 
 
 
