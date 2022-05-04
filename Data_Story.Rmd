@@ -2,9 +2,7 @@
 title: "Data Story"
 image: "book.png"
 
-site: distill::distill_website
-output:
-  postcards::solana
+
 ---
 
 ```{r setup, include=FALSE}
