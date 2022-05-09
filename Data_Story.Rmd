@@ -103,7 +103,6 @@ Oceania and North America countries have relatively higher GDP than other region
 This might because the higher the GDP is, the better the quality and standard of people's life will be, so people are more likely to feel happy in life.
 
 
-
 **4. ggridges Heatmap comparing Freedom and Happiness** 
 
 ```{r echo=FALSE, out.width='100%'}
@@ -156,6 +155,8 @@ According to my data visualization and analysis above, I found that GDP per Capi
 
 But there is no significant relationship between Happiness Score and Generosity, which means whether people are generous or not will not affect people's happiness.  
 
+
+However, I also think that although these factors can affect people's happiness, they are not the decisive factors. In addition to these factors, we should compare them with other comprehensive indicators such as culture and education level, entertainment field and environmental protection. 🌷
 
 
 ## Reference

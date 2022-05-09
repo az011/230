@@ -1,5 +1,6 @@
 ---
-title: "Anqi's Data Visualizations"
+title: "Data Visualizations"
+image: "anqi.JPG"
 description: |
   Welcome to Anqi's website for Math 230. Hope you enjoy it!
 links: 
@@ -12,10 +13,12 @@ output:
 site: distill::distill_website
 ---
 
-Hi! 🌷This website is the ultimate culmination of my semester in Math 230. 
-
-I am a junior student majoring in Statistics at Bucknell University in Lewisburg, Pennsylvania.
+Hi! 🌷My name is Anqi Zang. I am a junior student majoring in Statistics at Bucknell University in Lewisburg, Pennsylvania.
 I am from Chengdu, China, which is a city famous for spicy food and panda 🐼. 
+
+This website is the ultimate culmination of my semester in Math 230. 
+
+
 
 
 
